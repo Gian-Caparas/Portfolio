@@ -133,10 +133,10 @@ After deploying:
 
 ## ✅ Pre-Launch Checklist
 
-- [ ] Replace `profile.jpg` with your actual photo
+- [-] Replace `profile.jpg` with your actual photo
 - [ ] Update project links in `index.html` (search `href="#"`)
 - [ ] Add real project screenshots to `assets/images/projects/`
 - [ ] Verify EmailJS service ID & template ID in `script.js`
-- [ ] Test contact form
-- [ ] Test on mobile
+- [-] Test contact form
+- [-] Test on mobile
 - [ ] Add `<meta>` OG tags for social sharing (optional)

@@ -14,11 +14,10 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <!-- Custom Cursor -->
+    <!-- CURSOR -->
     <div class="cursor" id="cursor"></div>
     <div class="cursor-follower" id="cursorFollower"></div>
-
-    <!-- Navigation -->
+    <!-- NAVIGATION BAR -->
     <nav class="navbar" id="navbar">
       <div class="nav-inner">
         <a href="#home" class="nav-logo">GC<span class="dot">.</span></a>
@@ -36,7 +35,6 @@
       </div>
     </nav>
 
-    <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobileMenu">
       <ul>
         <li><a href="#home">Home</a></li>
@@ -45,8 +43,7 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
-
-    <!-- Hero Section -->
+    <!-- HERO SECTION -->
     <section id="home" class="hero">
       <div class="hero-bg-text">GIAN</div>
       <div class="hero-container">
@@ -100,7 +97,7 @@
       </div>
     </section>
 
-    <!-- About Section -->
+    <!-- ABOUT SECTION -->
     <section id="about" class="about">
       <div class="container">
         <div class="section-label reveal">Get To Know More</div>
@@ -153,8 +150,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Tools Section -->
+    <!-- TOOLS SECTIONS -->
     <section class="tools" id="tools">
       <div class="container">
         <div class="section-label reveal">My Arsenal</div>
@@ -233,14 +229,12 @@
         </div>
       </div>
     </section>
-
-    <!-- Projects Section -->
+    <!-- PROJECT SECTION -->
     <section id="projects" class="projects">
       <div class="container">
         <div class="section-label reveal">Check Out My</div>
         <h2 class="section-title reveal">Projects</h2>
 
-        <!-- Developments -->
         <div class="projects-category reveal">
           <div class="category-label">
             <span class="cat-line"></span>
@@ -281,8 +275,7 @@
             </div>
           </div>
         </div>
-
-        <!-- Designs -->
+        <!-- PROJECT CATERGORY BAR -->
         <div class="projects-category reveal">
           <div class="category-label">
             <span class="cat-line"></span>
@@ -326,170 +319,180 @@
           </div>
         </div>
 
-        <!-- Creativity -->
+        <!-- CRETIVITY SECTION -->
         <div class="projects-category reveal" id="creativitySection">
           <div class="category-label">
             <span class="cat-line"></span>
             Creativity
             <span class="cat-line"></span>
           </div>
-
-          <!-- AUTO-SCROLL CAROUSEL -->
+          <!-- CAROUSEL PART -->
           <div class="carousel-wrapper" id="creativityCarousel">
             <div class="carousel-track" id="carouselTrack">
-          <!-- Set A -->
-          <div class="carousel-item" data-category="Branding" data-label="Logo 1">
-            <img src="assets/images/projects/Logo1.png" alt="Logo 1" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Branding</span>
-              <p class="ci-name">Logo</p>
-            </div>
+          <!-- SECTION A -->
+          <div class="carousel-item contain-img" 
+            data-img="assets/images/projects/Logo1.png" 
+            data-title="Logo 1" 
+            data-tag="Branding"> 
+          <img src="assets/images/projects/Logo1.png" alt="Logo 1" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Branding</span>
+            <p class="ci-name">Logo</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Branding" data-label="Logo 2">
-            <img src="assets/images/projects/Logo2.png" alt="Logo 2" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Branding</span>
-              <p class="ci-name">Logo</p>
-            </div>
+        <div class="carousel-item contain-img" 
+            data-img="assets/images/projects/Logo2.png" 
+            data-title="Logo 2" 
+            data-tag="Branding"> 
+          <img src="assets/images/projects/Logo2.png" alt="Logo 2" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Branding</span>
+            <p class="ci-name">Logo</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Flyer 1">
-            <img src="assets/images/projects/Flyer1.png" alt="Flyer 1" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Flyer</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Flyer1.png" 
+            data-title="Flyer 1" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Flyer1.png" alt="Flyer 1" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Flyer</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Flyer 2">
-            <img src="assets/images/projects/Flyer2.png" alt="Flyer 2" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Flyer</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Flyer2.png" 
+            data-title="Flyer 2" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Flyer2.png" alt="Flyer 2" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Flyer</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Calendar">
-            <img src="assets/images/projects/Calendar.png" alt="Calendar" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Calendar</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Calendar.png" 
+            data-title="Calendar" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Calendar.png" alt="Calendar" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Calendar</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Calendar">
-            <img src="assets/images/projects/Businesscard1.png" alt="Calendar" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Business Card</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Businesscard1.png" 
+            data-back="assets/images/projects/Businesscard1.1.png" 
+            data-title="Business Card" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Businesscard1.png" alt="Business Card" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Business Card</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Calendar">
-            <img src="assets/images/projects/Businesscard1.1.png" alt="Calendar" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Business Card</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Flyer3.png"
+            data-back="assets/images/projects/Flyer3back.png"
+            data-title="Trifold Folder" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Flyer3.png" alt="Flyer" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Trifold Folder</p>
           </div>
-
-          <div class="carousel-item" data-category="Graphic Design" data-label="Trifold Flyer">
-            <img src="assets/images/projects/Flyer3.png" alt="Trifold Flyer" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Flyer</p>
-            </div>
+        </div>
+          <!-- SECTION B (FROM SECTION A TO REPEAT THE CAROUSEL)-->
+        <div class="carousel-item contain-img" 
+            data-img="assets/images/projects/Logo1.png" 
+            data-title="Logo 1" 
+            data-tag="Branding"> 
+          <img src="assets/images/projects/Logo1.png" alt="Logo 1" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Branding</span>
+            <p class="ci-name">Logo</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Trifold Flyer">
-            <img src="assets/images/projects/Flyer3.1.png" alt="Trifold Flyer" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Flyer</p>
-            </div>
+        <div class="carousel-item contain-img" 
+            data-img="assets/images/projects/Logo2.png" 
+            data-title="Logo 2" 
+            data-tag="Branding"> 
+          <img src="assets/images/projects/Logo2.png" alt="Logo 2" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Branding</span>
+            <p class="ci-name">Logo</p>
           </div>
+        </div>
 
-          <!-- Set B — exact copy of Set A for seamless loop -->
-          <div class="carousel-item" data-category="Branding" data-label="Logo">
-            <img src="assets/images/projects/Logo1.png" alt="Logo 1" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Branding</span>
-              <p class="ci-name">Logo</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Flyer1.png" 
+            data-title="Flyer 1" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Flyer1.png" alt="Flyer 1" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Flyer</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Branding" data-label="Logo">
-            <img src="assets/images/projects/Logo2.png" alt="Logo 2" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Branding</span>
-              <p class="ci-name">Logo</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Flyer2.png" 
+            data-title="Flyer 2" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Flyer2.png" alt="Flyer 2" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Flyer</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Flyer">
-            <img src="assets/images/projects/Flyer1.png" alt="Flyer 1" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Social Media</span>
-              <p class="ci-name">Flyer</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Calendar.png" 
+            data-title="Calendar" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Calendar.png" alt="Calendar" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Calendar</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Flyer">
-            <img src="assets/images/projects/Flyer2.png" alt="Flyer 2" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Social Media</span>
-              <p class="ci-name">Flyer</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Businesscard1.png" 
+            data-back="assets/images/projects/Businesscard1.1.png" 
+            data-title="Business Card" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Businesscard1.png" alt="Business Card" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Business Card</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Calendar">
-            <img src="assets/images/projects/Calendar.png" alt="Calendar" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Social Media</span>
-              <p class="ci-name">Calendar</p>
-            </div>
+        <div class="carousel-item" 
+            data-img="assets/images/projects/Flyer3.png"
+            data-back="assets/images/projects/Flyer3back.png"
+            data-title="Trifold Folder" 
+            data-tag="Graphic Design"> 
+          <img src="assets/images/projects/Flyer3.png" alt="Flyer" class="ci-bg-img" />
+          <div class="ci-content">
+            <span class="ci-tag">Graphic Design</span>
+            <p class="ci-name">Trifold Folder</p>
           </div>
+        </div>
 
-          <div class="carousel-item" data-category="Graphic Design" data-label="Calendar">
-            <img src="assets/images/projects/Businesscard1.png" alt="Calendar" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Business Card</p>
-            </div>
-          </div>
-
-          <div class="carousel-item" data-category="Graphic Design" data-label="Calendar">
-            <img src="assets/images/projects/Businesscard1.1.png" alt="Calendar" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Business Card</p>
-            </div>
-          </div>
-
-          <div class="carousel-item" data-category="Graphic Design" data-label="Calendar">
-            <img src="assets/images/projects/Flyer3.png" alt="Trifold Flyer" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Trifold Flyer</p>
-            </div>
-          </div>
-
-          <div class="carousel-item" data-category="Graphic Design" data-label="Calendar">
-            <img src="assets/images/projects/Flyer3.1.png" alt="Trifold Flyer" class="ci-bg-img" />
-            <div class="ci-content">
-              <span class="ci-tag">Graphic Design</span>
-              <p class="ci-name">Trifold Flyer</p>
-            </div>
-          </div>
-
-            <!-- Edge fade masks -->
             <div class="carousel-fade carousel-fade-left"></div>
             <div class="carousel-fade carousel-fade-right"></div>
           </div>
-
-          <!-- VIEW ALL BUTTON -->
-           <br>
+          <br>
+          <!-- CREATIVITY CABINET PART -->
           <div class="view-all-wrap">
             <button class="btn btn-ghost" id="viewAllBtn" aria-expanded="false">
               <span id="viewAllLabel">View All Work</span>
@@ -497,9 +500,7 @@
             </button>
           </div>
 
-          <!-- EXPANDED GRID (hidden by default) -->
           <div class="creativity-expand" id="creativityExpand" aria-hidden="true">
-            <!-- Filter tabs -->
             <div class="creativity-filters">
               <button class="cf-btn active" data-filter="all">All</button>
               <button class="cf-btn" data-filter="Branding">Branding</button>
@@ -507,54 +508,62 @@
               <button class="cf-btn" data-filter="Media">Media</button>
             </div>
 
-            <!-- Full grid -->
             <div class="creativity-full-grid" id="creativityFullGrid">
-              <div class="cfgrid-item" data-cat="Branding">
-              <img src="assets/images/projects/Logo1.png" alt="Logo" class="ci-bg-img" />
-              <div class="cfgrid-info"><span class="ci-tag">Branding</span><p>Logo</p></div>
-            </div>
+              
+              <div class="cfgrid-item contain-img" data-cat="Branding" data-img="assets/images/projects/Logo1.png" data-title="Logo 1" data-tag="Branding">
+                <img src="assets/images/projects/Logo1.png" alt="Logo" class="ci-bg-img" />
+                <div class="cfgrid-hover">
+                  <div class="cfgrid-info"><span class="ci-tag">Branding</span><p>Logo 1</p></div>
+                </div>
+              </div>
 
-            <div class="cfgrid-item" data-cat="Branding">
-              <img src="assets/images/projects/Logo2.png" alt="Logo" class="ci-bg-img" />
-              <div class="cfgrid-info"><span class="ci-tag">Branding</span><p>Logo</p></div>
-            </div>
+              <div class="cfgrid-item contain-img" data-cat="Branding" data-img="assets/images/projects/Logo2.png" data-title="Logo 2" data-tag="Branding">
+                <img src="assets/images/projects/Logo2.png" alt="Logo" class="ci-bg-img" />
+                <div class="cfgrid-hover">
+                  <div class="cfgrid-info"><span class="ci-tag">Branding</span><p>Logo 2</p></div>
+                </div>
+              </div>
 
-            <div class="cfgrid-item" data-cat="Graphic Design">
-              <img src="assets/images/projects/Flyer1.png" alt="Flyer" class="ci-bg-img" />
-              <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Flyer</p></div>
-            </div>
+              <div class="cfgrid-item" data-cat="Graphic Design" data-img="assets/images/projects/Flyer1.png" data-title="Flyer 1" data-tag="Graphic Design">
+                <img src="assets/images/projects/Flyer1.png" alt="Flyer" class="ci-bg-img" />
+                <div class="cfgrid-hover">
+                  <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Flyer 1</p></div>
+                </div>
+              </div>
 
-            <div class="cfgrid-item" data-cat="Graphic Design">
-              <img src="assets/images/projects/Flyer2.png" alt="Flyer" class="ci-bg-img" />
-              <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Flyer</p></div>
-            </div>
+              <div class="cfgrid-item" data-cat="Graphic Design" data-img="assets/images/projects/Flyer2.png" data-title="Flyer 2" data-tag="Graphic Design">
+                <img src="assets/images/projects/Flyer2.png" alt="Flyer" class="ci-bg-img" />
+                <div class="cfgrid-hover">
+                  <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Flyer 2</p></div>
+                </div>
+              </div>
 
-            <div class="cfgrid-item" data-cat="Graphic Design">
-              <img src="assets/images/projects/Flyer3.png" alt="Trifold Flyer" class="ci-bg-img" />
-              <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Trifold Flyer</p></div>
-            </div>
+              <div class="cfgrid-item" data-cat="Graphic Design" 
+                   data-img="assets/images/projects/Flyer3.png" 
+                  data-back="assets/images/projects/Flyer3back.png" 
+                  data-title="Trifold Flyer" data-tag="Graphic Design">
+                <img src="assets/images/projects/Flyer3.png" alt="Trifold Flyer" class="ci-bg-img" />
+                <div class="cfgrid-hover">
+                  <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Trifold Flyer</p></div>
+                </div>
+              </div>
 
-            <div class="cfgrid-item" data-cat="Graphic Design">
-              <img src="assets/images/projects/Flyer3.1.png" alt="Trifold Flyer" class="ci-bg-img" />
-              <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Trifold Flyer</p></div>
-            </div>
+              <div class="cfgrid-item" data-cat="Graphic Design" data-img="assets/images/projects/Calendar.png" data-title="Calendar" data-tag="Graphic Design">
+                <img src="assets/images/projects/Calendar.png" alt="Calendar" class="ci-bg-img" />
+                <div class="cfgrid-hover">
+                  <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Calendar</p></div>
+                </div>
+              </div>
 
-            <div class="cfgrid-item" data-cat="Graphic Design">
-              <img src="assets/images/projects/Calendar.png" alt="Calendar" class="ci-bg-img" />
-              <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Calendar</p></div>
-            </div>
-
-            <div class="cfgrid-item" data-cat="Graphic Design">
-              <img src="assets/images/projects/Businesscard1.png" alt="Business Card" class="ci-bg-img" />
-              <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Business Card</p></div>
-            </div>
-
-
-            <div class="cfgrid-item" data-cat="Graphic Design">
-              <img src="assets/images/projects/Businesscard1.1.png" alt="Business Card" class="ci-bg-img" />
-              <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Business Card</p></div>
-            </div>
-
+              <div class="cfgrid-item" data-cat="Graphic Design" 
+                  data-img="assets/images/projects/Businesscard1.png" 
+                  data-back="assets/images/projects/Businesscard1.1.png" 
+                  data-title="Business Card" data-tag="Graphic Design">
+                <img src="assets/images/projects/Businesscard1.png" alt="Business Card" class="ci-bg-img" />
+                <div class="cfgrid-hover">
+                  <div class="cfgrid-info"><span class="ci-tag">Graphic Design</span><p>Business Card</p></div>
+                </div>
+              </div>
 
             </div>
           </div>
@@ -562,7 +571,7 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- CONTACT SECTION -->
     <section id="contact" class="contact">
       <div class="container">
         <div class="contact-grid">
@@ -616,8 +625,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Footer -->
+    <!-- FOOTER SECTION -->
     <footer class="footer">
       <div class="container">
         <div class="footer-inner">
@@ -627,6 +635,27 @@
       </div>
     </footer>
 
+    <!-- LIGHTBOX PART -->
+    <!-- "pop-up" window that appears on top of your website when you click on a project or an image. -->
+    <div class="lightbox-backdrop" id="lightbox">
+      <div class="lightbox-panel" id="lightboxPanel">
+        <div class="lightbox-img-wrap">
+          <img src="" alt="" id="lightboxImg" />
+          <div class="lightbox-dots" id="lightboxDots"></div>
+        </div>
+        <div class="lightbox-info">
+          <div class="lightbox-info-left">
+            <span class="lightbox-tag" id="lightboxTag">Tag</span>
+            <h3 class="lightbox-title" id="lightboxTitle">Title</h3>
+          </div>
+          <button class="lightbox-close" id="lightboxClose">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- EMAIL JS PART -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script>
       (function () {
