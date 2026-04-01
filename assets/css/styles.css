@@ -1062,6 +1062,38 @@ img { max-width: 100%; display: block; }
   .carousel-fade { width: 60px; }
 }
 
+/* =================== LIGHTBOX FLIP BUTTON FIX =================== */
+.lightbox-flip-btn {
+    position: absolute !important;
+    bottom: 20px !important; /* Positions it near the bottom of the image */
+    left: 50% !important;
+    transform: translateX(-50%) !important; /* Centers it perfectly */
+    background: var(--accent) !important;
+    color: #000 !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 100; /* Ensures it stays on top of the image */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    white-space: nowrap; /* Prevents text from wrapping/breaking */
+    width: auto !important; /* Ensures it doesn't try to stretch like the contact button */
+}
+
+/* Ensure the container is relative so the button sticks to it */
+.lightbox-img-wrap {
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 /* =================== CONTACT =================== */
 .contact {
   padding: 140px 0;
